@@ -3,7 +3,7 @@ pragma solidity ^0.8.13;
 
 contract FunctionsAndErrors {
    
-    string public name = "OrbitToken";
+    string public name = "MMO";
     uint public supply = 0;
 
     mapping (address => uint) public balances;
