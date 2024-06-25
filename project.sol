@@ -9,7 +9,6 @@ contract FunctionsAndErrors {
     mapping (address => uint) public balances;
 
     function mint(address _address, uint _value) public {
-        require(_address != address(0), "Invalid address");
         require(_value > 0, "Mint value must be greater than zero");
 
         supply += _value;
