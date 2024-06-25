@@ -4,7 +4,9 @@
 This Solidity program show the working of require(), assert() and revert() statements which are error handling stements provided by Solidity Compiler.
 
 The contract has two functions: 
+
 mint function = This function is used to add value to supply and increase balance of the perticular address by the value the user have enterd. 
+
 burn function = This function is used to remove value from supply and form the balance at a perticular address.
 
 
