@@ -13,7 +13,9 @@ burn function = This function is used to remove value from supply and form the b
 ## Error Handlers
 
 require() = This function check the condition given by the user and if it not satisfied it will give an which is also defined by the user.
+
 assert() = This function is used to check if the transaction is performed correctly it will check a condition which the user have entered if it is not satisfied it will creates an error of type Panic(uint256).
+
 revert() =  This function will revert the operation which is being performed and print the message which the user have entered.
 
 ### Executing program
